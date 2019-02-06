@@ -6,7 +6,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<button><%= link_to "Songs", songs_path %></button>
+<button><%= link_to "Create new song", new_song_path %></button>
 <%= yield %>
 
 </body>
